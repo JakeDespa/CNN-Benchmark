@@ -82,7 +82,3 @@ For every model and ensemble combination, the following metrics are recorded und
 - **Ensemble Dynamics:** Accuracy gain over best constituent member, joint inference latency, and agreement rate.
 
 ---
-
-## 📜 License
-This project is licensed under the MIT License.
-
