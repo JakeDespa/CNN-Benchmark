@@ -1,0 +1,14 @@
+              precision    recall  f1-score   support
+
+       metal       0.96      0.92      0.94        26
+       paper       1.00      1.00      1.00        69
+     plastic       0.97      0.99      0.98        67
+
+    accuracy                           0.98       162
+   macro avg       0.98      0.97      0.97       162
+weighted avg       0.98      0.98      0.98       162
+
+Confusion matrix:
+[[24  0  2]
+ [ 0 69  0]
+ [ 1  0 66]]

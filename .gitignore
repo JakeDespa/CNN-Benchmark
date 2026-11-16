@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large model checkpoints (exceed GitHub 100MB file limit)
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.h5
+results/checkpoints/
+**/checkpoints/*.pth
+
+# Probability numpy caches
+*.npz
+**/probs/*.npz
+
+# Raw image datasets (keep code & results lightweight)
+*train*Z*
+*val*Z*
+*test*Z*
+dataset_local/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
